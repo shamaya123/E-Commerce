@@ -7,14 +7,7 @@ html{
   
   color: #000000;
   }
-  /*.mySlides {
-      display: none
-    }
-.mySlide img {
-    vertical-align: middle;
-    
-}
-
+ 
 /* Slideshow container */
 .slideshow-container {
   top:0%;
@@ -55,21 +48,7 @@ html{
 
 
 
-/* The dots/bullets/indicators 
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
 
-.active, .dot:hover {
-  background-color: #717171;
-}*/
 
 /* Fading animation */
 .fade {
@@ -223,7 +202,7 @@ footer{
    position:absolute;
    width:100%;
   height:39px;
-  background: url(images/footer-shape.png);
+  background: url(Images/footer-shape.png);
   animation: animate 10s linear infinite;
 }
 .move::before{
@@ -231,7 +210,7 @@ footer{
    position:absolute;
    width:100%;
   height:39px;
-  background: url(images/footer-shape.png);
+  background: url(Images/footer-shape.png);
   animation: animate-reverse 10s linear infinite;
   opacity: 0.4;
 }
